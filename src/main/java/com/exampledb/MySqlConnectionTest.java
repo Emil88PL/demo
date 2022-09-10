@@ -23,7 +23,7 @@ public class MySqlConnectionTest {
 
             String url1 = "jdbc:mysql://localhost:3306/testdb";
             String user = "root";
-            String password = "Havana88emi1";
+            String password = "PASSWORD";
             conn1 = DriverManager.getConnection(url1, user, password);
             if (conn1 != null) {
                 System.out.println("Connected to the database test1");
@@ -32,7 +32,7 @@ public class MySqlConnectionTest {
             // ######################### connect way #2 #########################
 
             // String url2 =
-            // "jdbc:mysql://localhost:3306/testdb?user=root&password=Havana88emi1";
+            // "jdbc:mysql://localhost:3306/testdb?user=root&password=PASSWORD";
             // conn2 = DriverManager.getConnection(url2);
             // if (conn2 != null) {
             // System.out.println("Connected to the database test2");
@@ -43,7 +43,7 @@ public class MySqlConnectionTest {
             // String url3 = "jdbc:mysql://localhost:3306/testdb";
             // Properties info = new Properties();
             // info.put("user", "root");
-            // info.put("password", "Havana88emi1");
+            // info.put("password", "PASSWORD");
             // conn3 = DriverManager.getConnection(url3, info);
             // if (conn3 != null) {
             // System.out.println("Connected to the database test3");
